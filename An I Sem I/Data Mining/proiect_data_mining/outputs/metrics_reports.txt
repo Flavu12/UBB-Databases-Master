@@ -1,0 +1,72 @@
+
+===== Logistic Regression =====
+Metrics:
+  Accuracy : 0.7078
+  Precision: 0.6000
+  Recall   : 0.5000
+  F1-score : 0.5455
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.82      0.78       100
+           1       0.60      0.50      0.55        54
+
+    accuracy                           0.71       154
+   macro avg       0.68      0.66      0.67       154
+weighted avg       0.70      0.71      0.70       154
+
+
+===== KNN =====
+Metrics:
+  Accuracy : 0.7532
+  Precision: 0.6600
+  Recall   : 0.6111
+  F1-score : 0.6346
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.83      0.81       100
+           1       0.66      0.61      0.63        54
+
+    accuracy                           0.75       154
+   macro avg       0.73      0.72      0.72       154
+weighted avg       0.75      0.75      0.75       154
+
+
+===== Random Forest =====
+Metrics:
+  Accuracy : 0.7727
+  Precision: 0.7021
+  Recall   : 0.6111
+  F1-score : 0.6535
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.86      0.83       100
+           1       0.70      0.61      0.65        54
+
+    accuracy                           0.77       154
+   macro avg       0.75      0.74      0.74       154
+weighted avg       0.77      0.77      0.77       154
+
+
+===== XGBoost =====
+Metrics:
+  Accuracy : 0.7597
+  Precision: 0.6667
+  Recall   : 0.6296
+  F1-score : 0.6476
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.83      0.82       100
+           1       0.67      0.63      0.65        54
+
+    accuracy                           0.76       154
+   macro avg       0.74      0.73      0.73       154
+weighted avg       0.76      0.76      0.76       154
+

@@ -1,0 +1,37 @@
+Lab1
+
+Instructions
+Problem: a relatively large database, you need to insert rows in a specific amount of time. 
+
+You will design and implement a database solution that has ≥ 10 million rows across two related tables (≈ 5 million rows each). The insert affect both tables (tables are related using a foreign key constraint). 
+
+You want to achieve an rate of insertions of 100 inserts per millisecond (i.e., ≥ 100,000 rows/second). If you can not reach 100 inserts, try to reach 50 inserts per millisecond. 
+
+
+
+How do you implement it?
+
+
+Helping note: use indexes and queries to support a small analytics workload with strict latency goals. What can you use to make the initial database loading?
+
+
+
+The assignment emphasizes hardware knowledge, schema design, bulk ingestion strategies, storage/index tradeoffs, transaction settings, and performance measurement.
+
+Learning objectives: 
+
+Choose and justify physical design (indexes, partitioning, table options).
+
+Verify performance with reproducible measurement.
+
+Demonstrate query latency under realistic indexing
+
+Grading:
+
+Correctness &/ Reproducible: runs end-to-end with instructions; constraints satisfied.
+
+Design justifications: clear, evidence-based explanations for schema, indexes, partitions, and settings, hardware correlation.
+
+Data volume: meets or exceeds 5M + 5M rows.
+
+Insert performance ≥100k rows/sec, clean methodology.
