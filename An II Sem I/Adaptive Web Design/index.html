@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171119">
+  <meta name="description" content="Explore the meaning of PLAY through language, creativity, music, games and interactive experiences.">
+  <title>PLAY — More Than a Word</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "PLAY — More Than a Word",
+      "description": "An interactive exploration of the meanings and experiences of play.",
+      "inLanguage": "en",
+      "isAccessibleForFree": true
+    }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <a href="#home" class="logo" aria-label="PLAY, home">PLAY</a>
+    <nav aria-label="Main navigation">
+      <a href="#discover">Discover</a>
+      <a href="#worlds">Worlds</a>
+      <a href="#perspectives">Perspectives</a>
+      <a href="#playground">Playground</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HOME -->
+    <section id="home" class="hero section">
+      <div class="hero-glow glow-one" aria-hidden="true"></div>
+      <div class="hero-glow glow-two" aria-hidden="true"></div>
+
+      <div class="hero-inner container">
+        <h1>PL<span>A</span>Y</h1>
+        <h2>More than a word.</h2>
+        <p class="hero-copy">
+          Four letters. Endless possibilities. We play games, play music,
+          play roles — and sometimes, play by our own rules.
+        </p>
+        <a class="btn primary" href="#discover">
+          Press to explore <span aria-hidden="true">↗</span>
+        </a>
+        <p class="scroll-hint">↓ SCROLL TO DISCOVER</p>
+      </div>
+
+      <div class="hero-orbit" aria-hidden="true"><div></div></div>
+    </section>
+
+    <!-- DECODE THE WORD -->
+    <section id="discover" class="section container">
+      <p class="eyebrow">DECODE THE WORD</p>
+      <h2 class="section-title">What does <em>play</em> mean?</h2>
+      <p class="section-lead">A tiny word with a surprisingly big range of meanings.</p>
+
+      <div class="definition-grid">
+        <article class="info-card">
+          <span class="card-number">VERB</span>
+          <h3>To have fun.</h3>
+          <p>To take part in an activity for enjoyment, especially a game.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-number">VERB</span>
+          <h3>To perform.</h3>
+          <p>To produce music, act as a character, or start a recording.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-number">NOUN</span>
+          <h3>A performance.</h3>
+          <p>A story written to be performed on stage — a theatrical play.</p>
+        </article>
+      </div>
+
+      <div class="origin-box">
+        <div>
+          <p class="eyebrow">WORD ORIGIN</p>
+          <h3>Old English → Today</h3>
+        </div>
+        <p>
+          The verb traces back to Old English <em>plegan / plegian</em>,
+          associated with movement, amusement and music. The noun relates
+          to <em>plega</em>, meaning recreation or active movement.
+          Over time, the word expanded into many different contexts.
+        </p>
+      </div>
+
+      <h3 class="subheading">One word, many forms.</h3>
+      <div class="word-chips" aria-label="Related words">
+        <span>PLAYFUL</span><span>PLAYER</span><span>REPLAY</span>
+        <span>PLAYBACK</span><span>GAMEPLAY</span><span>PLAYGROUND</span>
+      </div>
+
+      <p class="source-note">
+        Definitions adapted from
+        <a href="https://dictionary.cambridge.org/dictionary/english/play" target="_blank" rel="noopener noreferrer">Cambridge Dictionary</a>.
+        Word history summarized from
+        <a href="https://www.etymonline.com/word/play" target="_blank" rel="noopener noreferrer">Online Etymology Dictionary</a>.
+      </p>
+    </section>
+
+    <!-- MANY WORLDS -->
+    <section id="worlds" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">MANY WORLDS</p>
+        <h2 class="section-title">Same word. <em>Different worlds.</em></h2>
+        <p class="section-lead">
+          Explore how the meaning of PLAY changes depending on the context.
+        </p>
+
+        <div class="world-layout">
+          <div class="world-buttons" role="group" aria-label="Choose a context">
+            <button class="world-btn active" data-world="games" aria-pressed="true" type="button">🎮 Gaming</button>
+            <button class="world-btn" data-world="music" aria-pressed="false" type="button">🎹 Music</button>
+            <button class="world-btn" data-world="sports" aria-pressed="false" type="button">🏆 Sports</button>
+            <button class="world-btn" data-world="theatre" aria-pressed="false" type="button">🎭 Theatre</button>
+            <button class="world-btn" data-world="technology" aria-pressed="false" type="button">▶️ Technology</button>
+          </div>
+
+          <div class="world-display">
+            <div class="world-graphic">
+              <img id="worldGraphic" src="images/gaming.jpg"
+                   alt="Astronaut playing an arcade game" width="300" height="300">
+            </div>
+            <div id="worldDetails" aria-live="polite">
+              <p class="eyebrow" id="worldLabel">GAMING</p>
+              <h3 id="worldTitle">Play to explore.</h3>
+              <p id="worldText">
+                In games, play is a way to test ideas, solve problems
+                and experience imaginary worlds.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSPECTIVES -->
+    <section id="perspectives" class="section container">
+      <p class="eyebrow">PERSPECTIVES</p>
+      <h2 class="section-title">What does play mean <em>to us?</em></h2>
+      <p class="section-lead">
+        A personal reflection alongside perspectives from literature.
+      </p>
+
+      <div class="quotes-grid">
+        <blockquote class="quote main-quote">
+          <p>
+            To me, play is a way to reconnect with my inner child, find joy
+            in the little things, and bring family and friends closer together.
+            It's about creating memories, sharing laughter, and enjoying
+            moments with the people I love.
+          </p>
+          <footer>— My personal perspective</footer>
+        </blockquote>
+
+        <div class="quote placeholder">
+          <p class="eyebrow">ROALD DAHL</p>
+          <p>"Life is more fun if you play games"</p>
+        </div>
+
+        <div class="quote placeholder">
+          <p class="eyebrow">WILLIAM SHAKESPEARE</p>
+          <p>"All the world's a stage, and all the men and women merely players;"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLAYGROUND -->
+    <section id="playground" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">LET'S PLAY</p>
+        <h2 class="section-title">Don't just read. <em>Play.</em></h2>
+        <p class="section-lead">
+          Discover your music vibe, then enjoy two classic games.
+        </p>
+
+        <div class="lab-grid">
+
+          <!-- Music Vibe Quiz -->
+          <article class="lab-card music-quiz" aria-labelledby="musicQuizTitle">
+            <div class="lab-heading"><span class="eyebrow">MUSIC EXPERIENCE / 01</span></div>
+            <h3 id="musicQuizTitle">What's Your Music Vibe? 🎧</h3>
+            <p>
+              Music is another way to play. Answer four questions
+              to discover your listening vibe.
+            </p>
+
+            <div class="quiz-progress-header">
+              <span id="quizStep">QUESTION 1 OF 4</span>
+              <span id="quizPercent">0%</span>
+            </div>
+            <div class="quiz-progress" id="quizProgress" role="progressbar"
+                 aria-label="Quiz progress" aria-valuemin="0"
+                 aria-valuemax="4" aria-valuenow="0">
+              <div class="quiz-progress-fill" id="quizProgressFill"></div>
+            </div>
+
+            <div id="quizQuestionArea">
+              <h4 id="quizQuestion">What makes you press play?</h4>
+              <div class="quiz-options" id="quizOptions"></div>
+              <button class="btn secondary quiz-back" id="quizBack" type="button" hidden>
+                ← Previous question
+              </button>
+            </div>
+
+            <div class="quiz-result" id="quizResult" aria-live="polite" hidden>
+              <div class="quiz-result-emoji" id="quizResultEmoji" aria-hidden="true">🎵</div>
+              <p class="eyebrow">YOUR MUSIC VIBE IS</p>
+              <h4 id="quizResultTitle"></h4>
+              <p id="quizResultText"></p>
+              <button class="btn primary" id="quizRestart" type="button">
+                Take the quiz again ↻
+              </button>
+            </div>
+          </article>
+
+          <!-- Rock Paper Scissors -->
+          <article class="lab-card rps-game">
+            <div class="lab-heading"><span class="eyebrow">GAME 01</span></div>
+            <h3>Rock, Paper, Scissors</h3>
+            <p>Choose your move and challenge the computer!</p>
+
+            <div class="game-stats">
+              <span>You: <strong id="playerScore">0</strong></span>
+              <span>Computer: <strong id="computerScore">0</strong></span>
+            </div>
+
+            <div class="rps-arena">
+              <div class="rps-player">
+                <span id="playerChoice">❔</span>
+                <p>YOU</p>
+              </div>
+              <span class="rps-vs">VS</span>
+              <div class="rps-player">
+                <span id="computerChoice">❔</span>
+                <p>COMPUTER</p>
+              </div>
+            </div>
+
+            <p class="game-message" id="rpsMessage" role="status">
+              Choose your move to start!
+            </p>
+
+            <div class="rps-buttons">
+              <button class="rps-btn" data-choice="rock" type="button">✊ <span>Rock</span></button>
+              <button class="rps-btn" data-choice="paper" type="button">✋ <span>Paper</span></button>
+              <button class="rps-btn" data-choice="scissors" type="button">✌️ <span>Scissors</span></button>
+            </div>
+            <button class="btn secondary" id="rpsReset" type="button">Restart ↻</button>
+          </article>
+
+          <!-- Higher or Lower -->
+          <article class="lab-card card-game higher-lower">
+            <div class="lab-heading"><span class="eyebrow">CARD GAME</span></div>
+            <h3>Higher or Lower?</h3>
+            <p>
+              Guess whether the next card has a higher or lower value.
+              Aces are low.
+            </p>
+
+            <div class="game-stats">
+              <span>Score: <strong id="hlScore">0</strong></span>
+              <span>Best: <strong id="hlBest">0</strong></span>
+            </div>
+
+            <div class="hl-table">
+              <div class="playing-card face-up" id="hlCard" aria-label="Current card">
+                7<span>♥</span>
+              </div>
+              <div class="next-card" id="hlNext" aria-hidden="true">?</div>
+            </div>
+
+            <p class="game-message" id="hlMessage" role="status">
+              Will the next card be higher or lower?
+            </p>
+
+            <div class="game-actions">
+              <button class="btn primary" id="higherBtn" type="button">↑ Higher</button>
+              <button class="btn secondary" id="lowerBtn" type="button">↓ Lower</button>
+              <button class="btn text-btn" id="hlReset" type="button">Restart ↻</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BEYOND THE RULES -->
+    <section class="closing section container">
+      <p class="eyebrow">BEYOND THE RULES</p>
+      <h2>What if the world was your <span>playground?</span></h2>
+      <p>
+        Imagine a world where we could play with time, pause reality,
+        or turn everyday life into a game. Play is not always about winning
+        or following rules. Sometimes, it is about experimenting,
+        being creative, and discovering new possibilities.
+      </p>
+      <a class="btn primary" href="#home">Play again ↑</a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="logo">PLAY</span>
+      <p>An exploration of language, imagination and interaction.</p>
+      <div>
+        <a href="https://dictionary.cambridge.org/dictionary/english/play"
+           target="_blank" rel="noopener noreferrer">Dictionary</a>
+        <a href="https://www.etymonline.com/word/play"
+           target="_blank" rel="noopener noreferrer">Etymology</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
